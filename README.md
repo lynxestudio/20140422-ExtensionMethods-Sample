@@ -7,7 +7,7 @@
 <p>A esta estructura voy a agregarle dos métodos uno llamado <b>LastDay</b> que regresa el último día del mes de un objeto DateTime y otro método llamado After que regresa true si el objeto DateTime que lo invoca es mayor a la fecha que recibe como parámetro.</p>
 <p>Al ejecutar el programa se ve la siguiente salida.</p>
 <div>
-		<IMG src="picture_library/extensionMethods/fig1.png" width="713">
+<IMG src="images/fig1.png" width="713">
 </div><br>
 <h2>Propiedades de los extension methods</h2>
 <p align="justify">Pueden aplicarse a cualquiera de los siguientes objetos: Clases, Estructuras, Interfaces, Delegados, Genéricos y arreglos.
@@ -15,5 +15,5 @@ Deben ser declarados dentro de una clase estática, y tener la palabra reservada
 Son públicos por que se llaman desde fuera de la clase donde ellos son declarados.
 Pueden aplicarse en clases selladas (sealed) y tipos intrínsecos porque automáticamente soportan <b>boxing</b> y <b>unboxing</b>, es decir cuando se aplican a un tipo por valor .NET los envuelve como si se tratara de una objeto por referencia.</p>
 <div>
-		<IMG src="picture_library/extensionMethods/fig2.png">
+<IMG src="images/fig2.png">
 </div>
